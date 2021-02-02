@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="4">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="2"
+        android:text="@string/Look"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_row="1"
+        android:layout_column="0"
+
+        android:layout_gravity="fill_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/button2" />
+
+    <CheckBox
+        android:id="@+id/cbox"
+
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/checkbox" />
+
+    <ImageButton
+        android:id="@+id/img_btn"
+        android:layout_columnWeight="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flag" />
+
+    <Switch
+        android:id="@+id/swi"
+        android:layout_columnWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switch1" />
+
+    <EditText
+        android:id="@+id/etext"
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/type" />
+
+
+</GridLayout>

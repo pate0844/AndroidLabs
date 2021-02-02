@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:layout_gravity="fill"
+    >
+
+    <TextView
+        android:id="@string/Look"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Look"
+        android:textSize="30sp"></TextView>
+
+    <Button
+        android:id="@+id/clickbutton"
+        android:layout_width="190dp"
+        android:layout_height="295dp"
+        android:layout_weight="1"
+        android:onClick="SendMessage"
+        android:text="@string/button2">
+
+    </Button>
+
+    <CheckBox
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox">
+
+    </CheckBox>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flag"
+        >
+
+    </ImageButton>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switch1">
+
+    </Switch>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type" />
+
+
+</LinearLayout>

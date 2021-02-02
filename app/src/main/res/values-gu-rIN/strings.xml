@@ -3,4 +3,9 @@
     <string name="app_name">Android labs</string>
     <string name="hello_message">Namastey</string>
     <string name="ButtonText">I\’m a button</string>
+    <string name="Look">Look at my GUI</string>
+    <string name="button2">"I'm a button "</string>
+    <string name="checkbox">"Check this out "</string>
+    <string name="switch1">Switch ON /OFF</string>
+    <string name="type">"Type Here "</string>
 </resources>
