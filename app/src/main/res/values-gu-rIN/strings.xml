@@ -8,4 +8,17 @@
     <string name="checkbox">"Check this out "</string>
     <string name="switch1">Switch ON /OFF</string>
     <string name="type">"Type Here "</string>
+    <string name="yourProfile">yourProfile</string>
+    <string name="yourName">yourName</string>
+    <string name="enterYourName">enterYourName</string>
+    <string name="yourEmail">yourEmail</string>
+    <string name="enterYourEmail">enterYourEmail</string>
+    <string name="yourPicture">yourPicture</string>
+    <string name="clickButtonAbove">clickButtonAbove</string>
+    <string name="go_to_chat">go_to_chat</string>
+    <string name="delete_confirm_msg">Delete confirm message</string>
+    <string name="the_selected_row_is">"The selected row is "</string>
+    <string name="the_database_id_is">"The database id is "</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 </resources>

@@ -1,82 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:orientation="vertical">
+
 
     <TextView
-        android:id="@+id/ProfileTextView"
+        android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Your profile:"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"/>
+        android:text="@string/yourProfile"
+        android:textSize="30sp"/>
 
     <TextView
-        android:id="@+id/NameTextView"
+        android:id="@+id/textView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Your name:"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@id/ProfileTextView"/>
+        android:text="@string/yourName" />
+
     <EditText
-        android:id="@+id/NameEditText"
+        android:id="@+id/editTextName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Enter your name"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@id/NameTextView"
-        />
+        android:inputType="textPersonName"
+        android:hint="@string/enterYourName" />
 
     <TextView
-        android:id="@+id/EmailTextView"
+        android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Your email:"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@id/NameEditText"/>
+        android:text="@string/yourEmail" />
+
     <EditText
-        android:id="@+id/EmailEditText"
+        android:id="@+id/editTextEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Enter your email"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@id/EmailTextView"
-        />
+        android:inputType="textEmailAddress"
+        android:hint="@string/enterYourEmail"/>
+
     <TextView
-        android:id="@+id/PictureTextView"
+        android:id="@+id/textView7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Your picture:"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@id/EmailEditText"/>
+        android:text="@string/yourPicture" />
 
     <ImageButton
-        android:id="@+id/ImageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        tools:srcCompat="@android:drawable/picture_frame"
-        android:layout_below="@id/PictureTextView"/>
-
-    <TextView
-        android:id="@+id/ImagePictureTextView"
+        android:id="@+id/buttonSnap"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Click the button above to take a picture"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@id/ImageButton"/>
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clickButtonAbove" />
+
+    <Button
+        android:id="@+id/buttonChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_chat" />
 
 
-
-</RelativeLayout>
+</LinearLayout>
