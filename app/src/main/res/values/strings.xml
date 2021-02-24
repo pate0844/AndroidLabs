@@ -2,4 +2,6 @@
     <string name="app_name">Android labs</string>
     <string name="hello_message">Hello World!</string>
     <string name="ButtonText">I\’m a button</string>
+    <string name="toast_message">Hello here is more information</string>
+    <string name="clickhere">Click Here</string>
 </resources>

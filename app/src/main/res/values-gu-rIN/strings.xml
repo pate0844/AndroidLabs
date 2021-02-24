@@ -3,4 +3,6 @@
     <string name="app_name">Android labs</string>
     <string name="hello_message">Namastey</string>
     <string name="ButtonText">I\’m a button</string>
+    <string name="toast_message">Vadhu Mahiti</string>
+    <string name="clickhere">Ahya Dabavo</string>
 </resources>
