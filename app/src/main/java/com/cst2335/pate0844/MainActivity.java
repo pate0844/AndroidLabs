@@ -15,15 +15,15 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_linear);
+        setContentView(R.layout.activity_main_relative);
         TextView text = findViewById(R.id.text);
         EditText edit = findViewById(R.id.editText);
-        Button buttonclick = findViewById(R.id.click_here);
+        Button buttonclick = findViewById(R.id.button2);
 
 
-        Button button = findViewById(R.id.click_here);
+        Button button = findViewById(R.id.button2);
         button.setOnClickListener((vw) -> {
-            button.setText(getResources().getString(R.string.toast_message));
+            button.setText(getResources().getString(R.string.hello_message));
             Toast.makeText(MainActivity.this,
                     "Here is more information!", Toast.LENGTH_LONG).show();
         });
