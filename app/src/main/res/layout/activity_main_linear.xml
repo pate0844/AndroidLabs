@@ -23,7 +23,7 @@
             android:id="@+id/click_here"
             android:layout_width="173dp"
             android:layout_height="wrap_content"
-            android:text="@string/clickhere" />
+            android:text="@string/flagButtonText" />
 
         <CheckBox
             android:id="@+id/checkBox2"
