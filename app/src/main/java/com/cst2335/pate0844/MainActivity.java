@@ -22,23 +22,22 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        EditText editt = findViewById(R.id.email);
-        sharedPreferences = getSharedPreferences("sign-in", Context.MODE_PRIVATE);
+        EditText editText = findViewById(R.id.email);
+        sharedPreferences = getSharedPreferences("sign-in",Context.MODE_PRIVATE);
         String data = sharedPreferences.getString("e-mail", "");
-        editt.setText(data);
-        Button buttonLogin = findViewById(R.id.button);
-        buttonLogin.setOnClickListener(new View.OnClickListener() {
+        editText.setText(data);
+        Button but = findViewById(R.id.buttonLogin);
+
+        but.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent profilePage = new Intent(MainActivity.this, ProfileActivity.class);
-                profilePage.putExtra("email", editt.getText().toString());
+                profilePage.putExtra("email", editText.getText().toString());
                 startActivity(profilePage);
             }
         });
     }
 
-        @Override
-    protected void onStop(){super.onStop(); }
     @Override
     protected void onPause() {
         super.onPause();
@@ -47,4 +46,6 @@ public class MainActivity extends AppCompatActivity {
         ed.putString("e-mail",email.getText().toString());
         ed.apply();
     }
+
+
 }

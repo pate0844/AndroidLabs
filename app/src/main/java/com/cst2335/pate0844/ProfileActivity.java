@@ -29,8 +29,8 @@ public class ProfileActivity extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
 
         button = findViewById(R.id.buttonSnap);
-        mImageButton = findViewById(R.id.buttonSnap);
         emailEditText= findViewById(R.id.editTextEmail);
+        mImageButton = findViewById(R.id.buttonSnap);
         buttonChat=(Button)findViewById(R.id.buttonChat);
 
         button.setOnClickListener(e -> {
