@@ -22,6 +22,7 @@ public class ProfileActivity extends AppCompatActivity {
     TextView emailEditText;
     public static final String ACTIVITY_NAME = "PROFILE_ACTIVITY";
     private Button buttonChat;
+    private Button Weather;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,12 +30,19 @@ public class ProfileActivity extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
 
         button = findViewById(R.id.buttonSnap);
-        emailEditText= findViewById(R.id.editTextEmail);
         mImageButton = findViewById(R.id.buttonSnap);
+        emailEditText= findViewById(R.id.editTextEmail);
         buttonChat=(Button)findViewById(R.id.buttonChat);
+        Weather=(Button)findViewById(R.id.WeatherForechat);
 
         button.setOnClickListener(e -> {
             dispatchTakePictureIntent();
+        });
+
+        Weather.setOnClickListener(e ->{
+            Intent goToWeather = new Intent(ProfileActivity.this, WeatherForecast.class);
+            startActivity(goToWeather);
+
         });
 
         buttonChat.setOnClickListener(e ->{

@@ -20,4 +20,5 @@
     <string name="the_database_id_is">"The database id is "</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
+    <string name="go_to_weather">Go to Weather</string>
 </resources>
