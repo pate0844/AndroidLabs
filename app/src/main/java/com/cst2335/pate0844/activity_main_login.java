@@ -1,6 +1,7 @@
 package com.cst2335.pate0844;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -8,13 +9,10 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 
+public class activity_main_login extends AppCompatActivity {
 
-
-
-public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        System.out.println("Text");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
@@ -28,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         Button loginBtn = (Button) findViewById(R.id.button1);
         loginBtn.setOnClickListener( c -> {
 
-            Intent profilePage = new Intent(MainActivity.this, ProfileActivity.class);
+            Intent profilePage = new Intent(activity_main_login.this, ProfileActivity.class);
             profilePage.putExtra("EMAIL", emailField.getText().toString().trim());
             startActivityForResult( profilePage, 345);
         });

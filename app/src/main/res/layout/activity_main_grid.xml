@@ -1,63 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.gridlayout.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:columnCount="2"
-    android:rowCount="4">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:columnCount="2"
+    app:rowCount="4"
+    app:layout_columnWeight="1"
+    app:layout_gravity="fill">
 
     <TextView
-        android:id="@+id/text"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:layout_gravity="fill_horizontal"
-        android:layout_columnSpan="2"
-        android:text="@string/Look"
-        android:textSize="30dp" />
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        app:layout_columnSpan="2"
+        android:text="@string/textView" />
 
     <Button
-        android:id="@+id/btn"
-        android:layout_row="1"
-        android:layout_column="0"
-
-        android:layout_gravity="fill_horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_columnWeight="1"
-        android:text="@string/button2" />
+        android:id="@+id/button"
+        android:layout_width="209dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/Button" />
 
     <CheckBox
-        android:id="@+id/cbox"
-
-        android:layout_row="1"
-        android:layout_column="1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_columnWeight="1"
-        android:text="@string/checkbox" />
+        android:id="@+id/checkBox"
+        app:layout_gravity="fill"
+        android:text="@string/checkBox" />
 
     <ImageButton
-        android:id="@+id/img_btn"
-        android:layout_columnWeight="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/flag" />
+        android:id="@+id/imageButton"
+        android:layout_width="211dp"
+        app:srcCompat="@drawable/flag"/>
 
     <Switch
-        android:id="@+id/swi"
-        android:layout_columnWeight="1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
         android:text="@string/switch1" />
 
     <EditText
-        android:id="@+id/etext"
-        android:layout_width="wrap_content"
-        android:layout_columnSpan="2"
-        android:layout_gravity="fill_horizontal"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:hint="@string/type" />
+        android:inputType="textPersonName|textCapWords"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        app:layout_columnSpan="2"
+        android:hint="@string/textView2" />
 
-
-</GridLayout>
+</androidx.gridlayout.widget.GridLayout>

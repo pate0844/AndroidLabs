@@ -1,55 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_weight="1"
-    android:layout_gravity="fill"
-    >
+    android:orientation="vertical"
+    android:rotationX="0"
+    android:rotationY="0"
+    tools:context=".MainActivity">
 
     <TextView
-        android:id="@string/Look"
-        android:layout_width="237dp"
-        android:layout_height="wrap_content"
-        android:text="@string/Look"
-        android:textSize="30sp"></TextView>
-
-    <Button
-        android:id="@+id/clickbutton"
-        android:layout_width="190dp"
-        android:layout_height="295dp"
-        android:layout_weight="1"
-        android:onClick="SendMessage"
-        android:text="@string/button2">
-
-    </Button>
-
-    <CheckBox
-        android:layout_width="182dp"
-        android:layout_height="wrap_content"
-        android:text="@string/checkbox">
-
-    </CheckBox>
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/flag"
-        >
-
-    </ImageButton>
-
-    <Switch
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/switch1">
-
-    </Switch>
-
-    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/type" />
+        android:text="@string/textView"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:text="@string/Button" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_weight="1"
+            android:text="@string/checkBox" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/flag"/>
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_weight="1"
+
+            android:text="@string/switch1" />
+    </LinearLayout>
+
+    <EditText
+        android:inputType="textPersonName"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textView2" />
 
 
 </LinearLayout>

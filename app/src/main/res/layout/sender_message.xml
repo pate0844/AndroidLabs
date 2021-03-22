@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+
+        android:id="@+id/SndTxt"
+        android:layout_width="330dp"
+        android:layout_height="80dp"
+        android:gravity="right"
+
+        />
+    <ImageView
+        android:id="@+id/SndImg"
+        android:src="@drawable/row_send"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toEndOf="@+id/SndTxt"
+        />
+</RelativeLayout>

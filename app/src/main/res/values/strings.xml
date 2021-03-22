@@ -1,24 +1,41 @@
 <resources>
-    <string name="app_name">Android labs</string>
-    <string name="hello_message">Hello World!</string>
-    <string name="ButtonText">I\’m a button</string>
-    <string name="Look">Look at my GUI</string>
-    <string name="button2">"I'm a button "</string>
-    <string name="checkbox">"Check this out "</string>
-    <string name="switch1">Switch ON /OFF</string>
-    <string name="type">"Type Here "</string>
-    <string name="yourProfile">yourProfile</string>
-    <string name="yourName">yourName</string>
-    <string name="enterYourName">enterYourName</string>
-    <string name="yourEmail">yourEmail</string>
-    <string name="enterYourEmail">enterYourEmail</string>
-    <string name="yourPicture">yourPicture</string>
-    <string name="clickButtonAbove">clickButtonAbove</string>
-    <string name="go_to_chat">go_to_chat</string>
-    <string name="delete_confirm_msg">Delete confirm message</string>
-    <string name="the_selected_row_is">"The selected row is "</string>
-    <string name="the_database_id_is">"The database id is "</string>
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
-    <string name="go_to_weather">Go to Weather</string>
+    <string name="app_name" translatable="false">InClassExamples_W21</string>
+    <string name="textView" translatable="false">Look at my GUI</string>
+    <string name="Button" translatable="false">Click here</string>
+    <string name="checkBox" translatable="false">Check this out!</string>
+    <string name="imageButton" translatable="false">app:srcCompat="@drawable/flag"</string>
+    <string name="switch1" translatable="false">Switch on / off</string>
+    <string name="textView2" translatable="false">Type here</string>
+    <string name="toast_message" translatable="false">Here is more information</string>
+    <string name="Snackbar" translatable="false">The switch is now</string>
+    <string name="on" translatable="false">on</string>
+    <string name="off" translatable="false">off</string>
+    <string name="hello_world" translatable="false">hello world</string>
+    <string name="click_me" translatable="false">"click me "</string>
+    <string name="text" translatable="false">text</string>
+    <string name="edit" translatable="false">edit</string>
+    <string name="btn" translatable="false">btn</string>
+    <string name="cbox" translatable="false">Check this out</string>
+    <string name="Hello_message">Hello_message</string>
+    <string name="ButtonText">ButtonText</string>
+    <string name="hello_message">hello_message</string>
+    <string name="Email">Email</string>
+    <string name="TypeEmail">TypeEmail</string>
+    <string name="Password">Password</string>
+    <string name="Button1">Button1</string>
+    <string name="Profile">Profile</string>
+    <string name="Name">Name</string>
+    <string name="EnterName">EnterName</string>
+    <string name="YourEmail">YourEmail</string>
+    <string name="EnterEmail">EnterEmail</string>
+    <string name="Picture">Picture</string>
+    <string name="TakePicture">TakePicture</string>
+    <string name="Dialog">Dialog</string>
+    <string name="selection">selection</string>
+    <string name="database">database</string>
+    <string name="Min">Min</string>
+    <string name="Max">Max</string>
+    <string name="Current">Current</string>
+    <string name="UV">UV</string>
+
 </resources>
