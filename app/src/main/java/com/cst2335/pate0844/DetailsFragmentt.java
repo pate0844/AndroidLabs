@@ -2,17 +2,16 @@ package com.cst2335.pate0844;
 
 import android.content.Context;
 import android.os.Bundle;
-
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -79,7 +78,7 @@ public class DetailsFragmentt extends Fragment {
         View view=inflater.inflate(R.layout.activity_details_fragmentt, container, false);
         TextView msgText=view.findViewById(R.id.Messagelbl);
         TextView idText=view.findViewById(R.id.Messagelbl);
-        CheckBox sendBox=view.findViewById(R.id.IDlbl);
+        CheckBox sendBox=view.findViewById(R.id.IsSend);
 
         msgText.setText(msg);
         idText.setText(id+"");
