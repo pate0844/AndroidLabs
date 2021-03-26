@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     tools:context=".DetailsFragmentt">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,13 +19,12 @@
         android:layout_below="@id/Messagelbl"
         android:text="ID="
         android:padding="5dp"/>
-
     <TextView
         android:id="@+id/Messagetxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/Messagelbl"
-        android:layout_toEndOf="@id/IDlbl"
+        android:layout_toRightOf="@id/IDlbl"
         android:text=""
         android:padding="5dp"/>
 

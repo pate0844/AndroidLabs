@@ -37,5 +37,6 @@
     <string name="Max">Max</string>
     <string name="Current">Current</string>
     <string name="UV">UV</string>
+    <string name="hello_details_fragment" />
 
 </resources>
