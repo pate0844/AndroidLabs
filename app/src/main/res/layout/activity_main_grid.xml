@@ -18,7 +18,7 @@
     <Button
         android:id="@+id/button"
         android:layout_width="209dp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/white"
         android:text="@string/Button" />
 
     <CheckBox
